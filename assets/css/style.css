@@ -1,0 +1,80 @@
+/*
+
+        Gradient background modified from: https://codepen.io/P1N2O/pen/pyBNzX
+
+***********Gradient Section****************/
+
+.data{
+	/*width: 100wh;*/
+	/*height: 90vh;*/
+	color: #fff;
+	background: linear-gradient(-45deg,  #23A6D5, cyan, aquamarine, #23D5AB);
+	background-size: 1000% 1000%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-size: 1.2em;
+}
+
+select:focus {outline:0;}
+
+body {
+	/*width: 100wh;*/
+	/*height: 90vh;*/
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 100% 100%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-size: 1.2em;
+}
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/************End Gradient Section**********/
+
+li{
+	color:steelblue;
+}
+
+.panel-text{
+	font-size: 1.5em;
+}
+
