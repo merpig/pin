@@ -29,7 +29,6 @@ function findGame(){
             axios(config) // api call, game name contained within
                 .then(function (data) {
                     var newGames = data.data;
-                    console.log(newGames.data.length);
                     if(newGames.data.length > 0){ // Checks that response is not empty
                         db.appids.create({ // Insert api data into database
                             appid: newGames.data[0].id,
